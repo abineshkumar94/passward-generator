@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>password generator</title>
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+</head>
+<body>
+    <h3 class="heading">Password Generator</h3>
+    <div class="inputBox">
+      <input type="text" class="passBox" id="passBox" disabled />
+      <span class="material-icons" id="copyIcon">content_copy</span>
+    </div>
+
+    <div class="container">
+
+      
+    <div class="row">
+        <p class="label">Character Length</p>
+        <p class="value">4</p>
+    </div>
+        
+
+    <div class="slider-container">
+            <input type="range" min="1" max="30" value="8" class="slider">
+    </div>
+
+        <input type="checkbox" name="uppercase" id="uppercase" class="checkbox">
+        <label for="uppercase" class="label">Include Uppercase Letters</label>
+<br>
+       
+        <input type="checkbox" name="lowercase" id="lowercase" class="checkbox">
+        <label for="lowercase" class="label1">Include Lowercase Letters</label>
+
+<br>
+
+        <input type="checkbox" name="numbers" id="numbers" class="checkbox">
+        <label for="numbers" class="label2">Include Numbers</label>
+
+<br>
+        <input type="checkbox" name="symbols" id="symbols" class="checkbox">
+        <label for="symbols" class="label3">Include Symbols</label>
+
+        <div class="strengthBox">
+            <p class="strengthLabel">STRENGTH</p>
+            <div class="steind-01"></div>
+       </div>
+
+        </div>
+
+       </div>
+
+
+      
+
+
+        
+    
+
+
+    
+</body>
+</html>
