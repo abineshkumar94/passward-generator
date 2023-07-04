@@ -14,7 +14,7 @@
     align-items: center;
     flex-direction: column;
     font-family: 'Space Mono', monospace;
-    background: #24232B;
+    background:#0C0B10;
     height: 30vh;
     margin: 0;
     padding: 0;
@@ -54,11 +54,10 @@
 
   .container {
     position: absolute;
-    width: 348px;
-    height: 600px; 
+    width: 353px; 
     top: 175px;
     left: 37.1%;
-    background-color:#7E7C89;
+    background-color: #24232B;
     margin-bottom: 50px;
   }
 
@@ -104,14 +103,14 @@
     margin-left: 10px;
 }
 
-.label{
+.label0{
     color: #FFFFFF;
     font-family: 'Space Mono', monospace; 
     font-weight: 700; 
     font-size: 18px; 
     line-height: 20px;
     letter-spacing: -2.7;
-    margin-left: 10px;
+   
 
 }
 .label1 {
@@ -187,3 +186,27 @@
   border-color: #FFFFFF;
 }
 
+.genbtn { 
+  position: relative;
+  width: 334px;
+  height: 59px;
+  top: -10px;
+  color:#04210F;
+  background-color: #a4ffa4;
+  padding: 12px 24px;
+  border: none;
+  margin-block: 8px;
+  margin-left: 8px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 600px;
+  font-size: 15px;
+  line-height: 15.23px;
+  letter-spacing: 10.3%;
+
+
+}
+
+.genbtn:hover{
+  background-color: #A6FEB0;
+}
