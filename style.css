@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
 
 :root {
     margin: 0;
@@ -48,9 +49,18 @@
     width: 343px;
     height: 45px;
     border-radius: 0%;
-    color: #24232B;
-   
+    background-color: #24232B;
   }
+
+  .passBox.generated-password {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34.62px;
+    letter-spacing: -0.7%;
+    color: #53525A;
+  }
+  
 
   .container {
     position: absolute;

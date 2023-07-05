@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let symbol = document.getElementById("symbol");
     let passBox = document.getElementById("passBox");
     let genbtn = document.getElementById("genbtn");
+    let copyIcon = document.getElementById("copyIcon");
   
     slidervalue.textContent = inputslider.value;
     inputslider.addEventListener('input', () => {
@@ -43,8 +44,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const randomIndex = Math.floor(Math.random() * selectedCharacters.length);
         password += selectedCharacters[randomIndex];
       }
+
+      passBox.className = "passBox generated-password";
   
       return password;
     }
+    copyIcon.addEventListener('click', ()=>{
+      navigator.clipboard.writeText(passBox.value);
+    })
+
   });
   
