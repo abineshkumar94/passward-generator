@@ -213,9 +213,15 @@
   font-size: 15px;
   line-height: 15.23px;
   letter-spacing: 10.3%;
-
-
 }
+
+.genbtn i.material-icons {
+  width: 17px;
+  height: 16px;
+  color: #04210F;
+  font-size: 12px;
+}
+
 
 .genbtn:hover{
   background-color: #A6FEB0;
